@@ -19,10 +19,13 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Install CocoaPods
+      - name: Ensure iOS platform files exist
+        run: flutter create --platforms=ios . --project-name crispr_sim
+
+      - name: Install CocoaPods dependencies
         run: |
           cd ios
-          pod install
+          pod install --repo-update
           cd ..
 
       - name: Build iOS (no codesign)
