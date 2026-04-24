@@ -1,7 +1,7 @@
 name: Build iOS IPA
 
 on:
-  workflow_dispatch:   # run manually from GitHub Actions tab
+  workflow_dispatch:
 
 jobs:
   build-ios:
@@ -19,10 +19,12 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Ensure iOS platform files exist
-        run: flutter create --platforms=ios . --project-name crispr_sim
+      - name: Regenerate iOS folder (was created on Windows, missing Podfile)
+        run: |
+          rm -rf ios
+          flutter create --platforms=ios . --project-name crispr_sim --org com.crisprsim
 
-      - name: Install CocoaPods dependencies
+      - name: Install CocoaPods
         run: |
           cd ios
           pod install --repo-update
