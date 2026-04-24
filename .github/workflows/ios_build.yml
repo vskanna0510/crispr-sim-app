@@ -19,28 +19,16 @@ jobs:
       - name: Flutter pub get
         run: flutter pub get
 
-      - name: Generate iOS folder from fresh template (Windows never creates it)
+      - name: Generate iOS folder on Mac (Flutter 3.x handles CocoaPods internally)
         run: |
-          # Create a temp Flutter project to get complete iOS template files
           flutter create /tmp/ios_template \
             --project-name crispr_sim \
             --org com.crisprsim \
             --platforms ios
-          # Replace our empty ios/ with the properly generated one
           rm -rf ios
           cp -r /tmp/ios_template/ios ios
-          echo "=== iOS folder contents ==="
-          ls -la ios/
-          echo "=== Podfile exists? ==="
-          cat ios/Podfile | head -5
 
-      - name: Pod install
-        run: |
-          cd ios
-          pod install --repo-update
-          cd ..
-
-      - name: Build iOS release (no codesign)
+      - name: Build iOS release (flutter handles CocoaPods automatically)
         run: |
           flutter build ios --release --no-codesign \
             --dart-define=API_BASE_URL=https://crispr-sim-backend.onrender.com
@@ -51,7 +39,7 @@ jobs:
           cp -r build/ios/iphoneos/Runner.app Payload/
           zip -r CRISPR-Sim.ipa Payload/
 
-      - name: Upload IPA artifact
+      - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: CRISPR-Sim-iOS
