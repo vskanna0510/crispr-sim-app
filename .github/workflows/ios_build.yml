@@ -16,32 +16,42 @@ jobs:
           flutter-version: '3.41.7'
           channel: 'stable'
 
-      - name: Install dependencies
+      - name: Flutter pub get
         run: flutter pub get
 
-      - name: Regenerate iOS folder (was created on Windows, missing Podfile)
+      - name: Regenerate iOS folder fresh on macOS
         run: |
           rm -rf ios
           flutter create --platforms=ios . --project-name crispr_sim --org com.crisprsim
 
-      - name: Install CocoaPods
+      - name: Debug - verify Podfile created
+        run: |
+          echo "=== ios/ contents ==="
+          ls -la ios/
+          echo "=== Podfile ==="
+          cat ios/Podfile || echo "NO PODFILE FOUND"
+
+      - name: Install CocoaPods via gem (ensure latest)
+        run: sudo gem install cocoapods
+
+      - name: Pod install
         run: |
           cd ios
           pod install --repo-update
           cd ..
 
-      - name: Build iOS (no codesign)
+      - name: Build iOS release (no codesign)
         run: |
           flutter build ios --release --no-codesign \
             --dart-define=API_BASE_URL=https://crispr-sim-backend.onrender.com
 
-      - name: Create IPA
+      - name: Package as IPA
         run: |
           mkdir -p Payload
           cp -r build/ios/iphoneos/Runner.app Payload/
           zip -r CRISPR-Sim.ipa Payload/
 
-      - name: Upload IPA artifact
+      - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: CRISPR-Sim-iOS
