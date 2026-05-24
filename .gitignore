@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.sqlite
+
+# Flutter / Dart
+frontend/flutter_app/.dart_tool/
+frontend/flutter_app/build/
+frontend/flutter_app/.flutter-plugins
+frontend/flutter_app/.flutter-plugins-dependencies
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
+
+# Secrets
+.env
+.env.*

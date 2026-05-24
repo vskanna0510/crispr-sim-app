@@ -1,0 +1,46 @@
+name: Build iOS IPA
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.41.7'
+          channel: 'stable'
+
+      - name: Flutter pub get
+        run: flutter pub get
+
+      - name: Generate iOS folder on Mac (Flutter 3.x handles CocoaPods internally)
+        run: |
+          flutter create /tmp/ios_template \
+            --project-name crispr_sim \
+            --org com.crisprsim \
+            --platforms ios
+          rm -rf ios
+          cp -r /tmp/ios_template/ios ios
+
+      - name: Build iOS release (flutter handles CocoaPods automatically)
+        run: |
+          flutter build ios --release --no-codesign \
+            --dart-define=API_BASE_URL=https://crispr-sim-backend.onrender.com
+
+      - name: Package as IPA
+        run: |
+          mkdir -p Payload
+          cp -r build/ios/iphoneos/Runner.app Payload/
+          zip -r CRISPR-Sim.ipa Payload/
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: CRISPR-Sim-iOS
+          path: CRISPR-Sim.ipa
