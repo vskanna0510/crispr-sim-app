@@ -1,16 +1,16 @@
-// App-wide constants for CRISPR-Sim.
-
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 // ─── API ──────────────────────────────────────────────────────────────────────
 
-// Android emulator  → use 10.0.2.2  (maps to host PC's localhost)
-// Android physical  → use your PC's LAN IP, e.g. 192.168.1.100
-// Windows / Chrome  → localhost works fine
-const String kBaseUrl = String.fromEnvironment(
-  'API_BASE_URL',
-  defaultValue: 'http://localhost:8000',
-);
+const String _envUrl = String.fromEnvironment('API_BASE_URL', defaultValue: '');
+
+String get kBaseUrl {
+  if (_envUrl.isNotEmpty) return _envUrl;
+  if (kIsWeb) return 'http://127.0.0.1:8000';
+  // On Android/iOS APK, connect directly to the live Render production backend
+  return 'https://crispr-sim-backend.onrender.com';
+}
 
 // ─── DNA base colours ─────────────────────────────────────────────────────────
 
