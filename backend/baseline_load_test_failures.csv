@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,POST /analysis/compare,HTTPError('422 Client Error: Unprocessable Entity for url: POST /analysis/compare'),3687,2026-09-01T14:15:53Z,2026-09-01T14:16:52Z
+POST,POST /crispr/scan,HTTPError('400 Client Error: Bad Request for url: POST /crispr/scan'),7355,2026-09-01T14:15:53Z,2026-09-01T14:16:52Z
+POST,POST /crispr/cut,HTTPError('400 Client Error: Bad Request for url: POST /crispr/cut'),5516,2026-09-01T14:15:53Z,2026-09-01T14:16:52Z
+POST,POST /crispr/nhej,HTTPError('422 Client Error: Unprocessable Entity for url: POST /crispr/nhej'),5513,2026-09-01T14:15:53Z,2026-09-01T14:16:52Z

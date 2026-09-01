@@ -2071,3 +2071,212 @@
 2026-09-01 03:55:23 [    INFO] [SeleniumAutomation] Total Duration     : 129.56s
 2026-09-01 03:55:23 [    INFO] [SeleniumAutomation] ------------------------------------------------------------
 2026-09-01 03:55:23 [    INFO] [SeleniumAutomation] ✅ Gate Passed: Suite successfully met all quality thresholds (100.00% >= 95.0%)
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] CRISPR-Sim Enterprise E2E Test Runner
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] Target BASE_URL  : http://127.0.0.1:8000
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] Headless Mode    : True
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] Worker Threads   : 8
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] Output Directory : Test Results
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] ------------------------------------------------------------
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] 🔍 Verifying LIVE deployment at: http://127.0.0.1:8000
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] ✅ Deployment Verification: Status=PASS, HTTP=200 in 3.9ms, CSS=0, JS=0
+2026-09-01 07:19:43 [    INFO] [SeleniumAutomation] 🚀 Starting execution of 470 test cases with 8 worker threads...
+2026-09-01 07:19:44 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:45 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:48 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:48 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:48 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:49 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:49 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:49 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:49 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:49 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:52 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:56 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:57 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:19:58 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:00 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:03 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:05 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:06 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:08 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:08 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:08 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:08 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:08 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:09 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:09 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:09 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:11 [    INFO] [SeleniumAutomation] Progress: [50/470] test cases executed.
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:12 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:13 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:13 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:15 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:15 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:15 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:16 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:16 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:16 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:16 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:16 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:19 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:19 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:19 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:19 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:20 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:20 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:20 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:20 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:23 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:24 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:27 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:27 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:27 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:27 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:28 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:28 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:28 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:28 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:30 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:31 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:32 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:34 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:34 [    INFO] [SeleniumAutomation] Progress: [100/470] test cases executed.
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:35 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:37 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:39 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:40 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:42 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:42 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:43 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:46 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:46 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:46 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:46 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:46 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:47 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:47 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:47 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:50 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:51 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:53 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:54 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:20:56 [    INFO] [SeleniumAutomation] Progress: [150/470] test cases executed.
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] CRISPR-Sim Enterprise E2E Test Runner
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] Target BASE_URL  : http://127.0.0.1:8000
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] Headless Mode    : True
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] Worker Threads   : 8
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] Output Directory : Test Results
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] ------------------------------------------------------------
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] 🔍 Verifying LIVE deployment at: http://127.0.0.1:8000
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] ✅ Deployment Verification: Status=PASS, HTTP=200 in 23.94ms, CSS=0, JS=0
+2026-09-01 07:21:00 [    INFO] [SeleniumAutomation] 🚀 Starting execution of 470 test cases with 8 worker threads...
+2026-09-01 07:21:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:01 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:02 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:02 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:02 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:02 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:02 [   DEBUG] [SeleniumAutomation] ChromeDriver created successfully with headless=True
+2026-09-01 07:21:04 [    INFO] [SeleniumAutomation] Progress: [59/470] test cases executed.
+2026-09-01 07:21:04 [    INFO] [SeleniumAutomation] Progress: [118/470] test cases executed.
+2026-09-01 07:21:04 [    INFO] [SeleniumAutomation] Progress: [177/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Progress: [234/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Progress: [293/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Progress: [352/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Progress: [411/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Progress: [470/470] test cases executed.
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] 📊 Excel reports generated in: Test Results\Excel
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] 🌐 HTML reports generated in: Test Results\HTML
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] 📝 Summary report generated in: Test Results\Summary\summary.md
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] EXECUTION METRICS SUMMARY
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] ============================================================
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Total Test Cases   : 470
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Passed             : 470
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Failed             : 0
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Critical Failures  : 0
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Pass Rate          : 100.00%
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] Total Duration     : 4.49s
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] ------------------------------------------------------------
+2026-09-01 07:21:05 [    INFO] [SeleniumAutomation] ✅ Gate Passed: Suite successfully met all quality thresholds (100.00% >= 95.0%)
