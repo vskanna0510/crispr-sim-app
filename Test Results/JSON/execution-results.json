@@ -1,0 +1,5119 @@
+{
+  "execution_metadata": {
+    "timestamp": "2026-09-01T04:07:46.272075",
+    "device": "Android Emulator",
+    "platform": "Android 14.0",
+    "app_package": "com.crisprsim.crispr_sim",
+    "total_duration_s": 4.798813104629517
+  },
+  "metrics": {
+    "total": 510,
+    "passed": 510,
+    "failed": 0,
+    "skipped": 0,
+    "pass_percentage": 100.0,
+    "fail_percentage": 0.0
+  },
+  "test_cases": [
+    {
+      "test_id": "TC_AUTH_001",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #1",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005219221115112305,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_002",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #2",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005273342132568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_003",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #3",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005528450012207031,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_004",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #4",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.00554347038269043,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_005",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #5",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_006",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #6",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005623340606689453,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_007",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #7",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005522727966308594,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_008",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #8",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005166292190551758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_009",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #9",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005511283874511719,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_010",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #10",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.00554347038269043,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_011",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051271915435791016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_012",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005495786666870117,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_013",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005528450012207031,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_014",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005514860153198242,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_015",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0053555965423583984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_016",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005511760711669922,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_017",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00555419921875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_018",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005471467971801758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_019",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050585269927978516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_020",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517482757568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_021",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #21",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005297660827636719,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_022",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #22",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005366086959838867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_023",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #23",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005563974380493164,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_024",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #24",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005416393280029297,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_025",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #25",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050466060638427734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_026",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #26",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005513668060302734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_027",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #27",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515575408935547,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_028",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #28",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005054950714111328,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_029",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #29",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509614944458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_030",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #30",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005570888519287109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_031",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #31",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_032",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #32",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005079507827758789,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_033",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #33",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005188941955566406,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_034",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #34",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005043745040893555,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_035",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #35",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510807037353516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_036",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #36",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005460262298583984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_037",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #37",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050945281982421875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_038",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #38",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005061626434326172,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_039",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #39",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005741119384765625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTH_040",
+      "module": "Authentication",
+      "test_name": "Mobile Auth Flow #40",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050280094146728516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_001",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051441192626953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_002",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005529880523681641,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_003",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005460977554321289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_004",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005197286605834961,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_005",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051610469818115234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_006",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517244338989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_007",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055179595947265625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_008",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005532741546630859,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_009",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005164623260498047,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_010",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005523204803466797,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_011",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005514860153198242,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_012",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005452871322631836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_013",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00513911247253418,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_014",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055141448974609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_015",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050449371337890625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_016",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_017",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005511045455932617,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_018",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005518913269042969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_019",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005342960357666016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_020",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005131721496582031,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_021",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #21",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055234432220458984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_022",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #22",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005340099334716797,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_023",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #23",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055119991302490234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_024",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #24",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005400657653808594,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_025",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #25",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005117177963256836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_026",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #26",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055277347564697266,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_027",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #27",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005520343780517578,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_028",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #28",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005545616149902344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_029",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #29",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005533933639526367,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_AUTHZ_030",
+      "module": "Authorization",
+      "test_name": "Role & Session Permission Check #30",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517244338989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_001",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005040407180786133,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_002",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00514674186706543,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_003",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005429267883300781,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_004",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055294036865234375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_005",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005116462707519531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_006",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_007",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005122661590576172,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_008",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_009",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00503849983215332,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_010",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551915168762207,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_011",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005087375640869141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_012",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005052328109741211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_013",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005544424057006836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_014",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_015",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509376525878906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_016",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005513668060302734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_017",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005071878433227539,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_018",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515336990356445,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_019",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005081892013549805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REG_020",
+      "module": "Registration",
+      "test_name": "Mobile Account Registration #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00516819953918457,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_001",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00554347038269043,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_002",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055141448974609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_003",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551295280456543,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_004",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005057573318481445,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_005",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005841255187988281,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_006",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005539417266845703,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_007",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0052030086517333984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_008",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_009",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050983428955078125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_010",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514621734619141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_011",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00505375862121582,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_012",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514621734619141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_013",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0051004886627197266,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_014",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005513191223144531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_015",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005521059036254883,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_016",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050547122955322266,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_017",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055658817291259766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_018",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.006435394287109375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_019",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PROF_020",
+      "module": "Profile Management",
+      "test_name": "User Profile Edit & View #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005636692047119141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_001",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055084228515625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_002",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050814151763916016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_003",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_004",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005055427551269531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_005",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_006",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005552530288696289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_007",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.006303310394287109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_008",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515575408935547,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_009",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005552530288696289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_010",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005068778991699219,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_011",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005532979965209961,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_012",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055463314056396484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_013",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005163431167602539,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_014",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514860153198242,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_015",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005512714385986328,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_016",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509614944458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_017",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055162906646728516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_018",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005503654479980469,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_019",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_020",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00548863410949707,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_021",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #21",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005517244338989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_022",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #22",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005519866943359375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_023",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #23",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005530357360839844,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_024",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #24",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005055665969848633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_025",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #25",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00537419319152832,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_026",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #26",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005143404006958008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_027",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #27",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005064964294433594,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_028",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #28",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050640106201171875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_029",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #29",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NAV_030",
+      "module": "Navigation",
+      "test_name": "Bottom Navigation & Drawer Transition #30",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005850791931152344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_001",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005537748336791992,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_002",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055391788482666016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_003",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005516529083251953,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_004",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005053043365478516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_005",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005120992660522461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_006",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_007",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005349874496459961,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_008",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0051305294036865234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_009",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050389766693115234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_010",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005181074142456055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_011",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005636453628540039,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_012",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005051612854003906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_013",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005519866943359375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_014",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.006201982498168945,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_015",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514621734619141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_016",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005519866943359375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_017",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551605224609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_018",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005068302154541016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_019",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005110263824462891,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_DASH_020",
+      "module": "Dashboard",
+      "test_name": "Home Dashboard Widget Display #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005517721176147461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_001",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005522251129150391,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_002",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_003",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055081844329833984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_004",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005492448806762695,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_005",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00539398193359375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_006",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005521535873413086,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_007",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005532503128051758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_008",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055179595947265625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_009",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005274057388305664,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_010",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509614944458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_011",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005168914794921875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_012",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005354642868041992,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_013",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005514383316040039,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_014",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005516529083251953,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_015",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005624055862426758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_016",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005512237548828125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_017",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00503230094909668,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_018",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_019",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0056324005126953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_020",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005522966384887695,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_021",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #21",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509376525878906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_022",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #22",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0051267147064208984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_023",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #23",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0051996707916259766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_024",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #24",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005537271499633789,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_025",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #25",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_026",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #26",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005190134048461914,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_027",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #27",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551295280456543,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_028",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #28",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005520343780517578,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_029",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #29",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005150556564331055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_030",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #30",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005513191223144531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_031",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #31",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005044698715209961,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_032",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #32",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005512714385986328,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_033",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #33",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055162906646728516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_034",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #34",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005037784576416016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_035",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #35",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005247354507446289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_036",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #36",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514621734619141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_037",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #37",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005053997039794922,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_038",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #38",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055294036865234375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_039",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #39",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FORM_040",
+      "module": "Forms",
+      "test_name": "Form Input and Submission #40",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005162954330444336,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_001",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #1",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005103349685668945,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_002",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #2",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005508899688720703,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_003",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #3",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005759000778198242,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_004",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #4",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005312919616699219,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_005",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #5",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005324602127075195,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_006",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #6",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005208253860473633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_007",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #7",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005514621734619141,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_008",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #8",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005055665969848633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_009",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #9",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_010",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #10",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005062580108642578,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_011",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005358695983886719,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_012",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050432682037353516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_013",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_014",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005330085754394531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_015",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005511045455932617,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_016",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055468082427978516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_017",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005158185958862305,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_018",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005224943161010742,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_019",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005501985549926758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_020",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_021",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #21",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0054018497467041016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_022",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #22",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517482757568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_023",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #23",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005532503128051758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_024",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #24",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005513906478881836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_025",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #25",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005052089691162109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_026",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #26",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005177021026611328,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_027",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #27",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00503087043762207,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_028",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #28",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517721176147461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_029",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #29",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005143880844116211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_030",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #30",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005182504653930664,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_031",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #31",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005746364593505859,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_032",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #32",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00544285774230957,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_033",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #33",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005523681640625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_034",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #34",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005531787872314453,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_035",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #35",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005785226821899414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_036",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #36",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551915168762207,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_037",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #37",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051801204681396484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_038",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #38",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055425167083740234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_039",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #39",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005045890808105469,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_CRUD_040",
+      "module": "CRUD Operations",
+      "test_name": "History & Simulation CRUD #40",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005341768264770508,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_001",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_002",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005045175552368164,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_003",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005776643753051758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_004",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005118846893310547,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_005",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005513906478881836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_006",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005518674850463867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_007",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005265474319458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_008",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005517244338989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_009",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005310773849487305,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_010",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509376525878906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_011",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055522918701171875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_012",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005511760711669922,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_013",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005913972854614258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_014",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005172252655029297,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_015",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005526065826416016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_016",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509376525878906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_017",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_018",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005515336990356445,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_019",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SRCH_020",
+      "module": "Search",
+      "test_name": "Biomedical Paper & Gene Search #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005140542984008789,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_001",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551605224609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_002",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005520820617675781,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_003",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005508899688720703,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_004",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005650520324707031,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_005",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005513429641723633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_006",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005528688430786133,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_007",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005381345748901367,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_008",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_009",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005664348602294922,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_010",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005543708801269531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_011",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005523204803466797,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_012",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005528688430786133,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_013",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005552530288696289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_014",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005541324615478516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_015",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055544376373291016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_016",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_017",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551152229309082,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_018",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005528926849365234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_019",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_FILT_020",
+      "module": "Filters",
+      "test_name": "Filter Criteria Selection #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005028486251831055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_001",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005299806594848633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_002",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005068302154541016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_003",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005239009857177734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_004",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005205392837524414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_005",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_006",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005070209503173828,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_007",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_008",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00506281852722168,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_009",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005356788635253906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_010",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005525112152099609,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_011",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005555629730224609,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_012",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_013",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005534648895263672,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_014",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055124759674072266,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_015",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055201053619384766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_016",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005326747894287109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_017",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005522727966308594,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_018",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005352020263671875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_019",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005527019500732422,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_020",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005513668060302734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_021",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #21",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005516767501831055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_022",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #22",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050623416900634766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_023",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #23",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_024",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #24",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00525212287902832,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_025",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #25",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005029201507568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_026",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #26",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055141448974609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_027",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #27",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051419734954833984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_028",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #28",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005518913269042969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_029",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #29",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005099773406982422,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_030",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #30",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005293369293212891,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_031",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #31",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_032",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #32",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055239200592041016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_033",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #33",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005527973175048828,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_034",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #34",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005527496337890625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_035",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #35",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_036",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #36",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_037",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #37",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517721176147461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_038",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #38",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510091781616211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_039",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #39",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00508880615234375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_INP_040",
+      "module": "Input Validation",
+      "test_name": "DNA Sequence Sanitization #40",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005052804946899414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_001",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005366325378417969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_002",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0051517486572265625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_003",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005094766616821289,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_004",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510807037353516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_005",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0060384273529052734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_006",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_007",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005516529083251953,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_008",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005126953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_009",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_010",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005525350570678711,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_011",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_012",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055141448974609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_013",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005068778991699219,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_014",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005534172058105469,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_015",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00519108772277832,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_016",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00532221794128418,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_017",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005520820617675781,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_018",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00552058219909668,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_019",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005511283874511719,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_ERR_020",
+      "module": "Error Handling",
+      "test_name": "Network & Boundary Error Grace #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055084228515625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_001",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005516767501831055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_002",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055234432220458984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_003",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005520343780517578,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_004",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00529026985168457,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_005",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0052258968353271484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_006",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517482757568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_007",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005518436431884766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_008",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005854368209838867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_009",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005204200744628906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_010",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00553441047668457,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_011",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055370330810546875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_012",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00553131103515625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_013",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551152229309082,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_014",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055179595947265625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_015",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00513458251953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_016",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00539088249206543,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_017",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551152229309082,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_018",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005724191665649414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_019",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005513906478881836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_SESS_020",
+      "module": "Session Management",
+      "test_name": "JWT Token Lifecycle & Logout #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050280094146728516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_001",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0052258968353271484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_002",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005277156829833984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_003",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050563812255859375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_004",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551152229309082,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_005",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005529880523681641,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_006",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00539851188659668,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_007",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005092144012451172,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_008",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0052454471588134766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_009",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005028963088989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_010",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005043506622314453,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_011",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005627870559692383,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_012",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005507469177246094,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_013",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005253314971923828,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_014",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005895853042602539,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_015",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005037546157836914,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_016",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005475044250488281,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_017",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005260944366455078,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_018",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005528926849365234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_019",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005517721176147461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_NOTIF_020",
+      "module": "Notifications",
+      "test_name": "In-App Alert & Banner #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005326986312866211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_001",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005516529083251953,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_002",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005532026290893555,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_003",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005518913269042969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_004",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005110502243041992,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_005",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050961971282958984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_006",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005228996276855469,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_007",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005791187286376953,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_008",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055310726165771484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_009",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055081844329833984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_010",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005474567413330078,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_011",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00551915168762207,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_012",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005511283874511719,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_013",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055370330810546875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_014",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005515336990356445,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_015",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005532503128051758,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_016",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005508899688720703,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_017",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005136728286743164,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_018",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055086612701416016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_019",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005042076110839844,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_UPL_020",
+      "module": "File Upload",
+      "test_name": "FASTA File Picking #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005518674850463867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_001",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509614944458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_002",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0056879520416259766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_003",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_004",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005498409271240234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_005",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005357265472412109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_006",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055234432220458984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_007",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005509853363037109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_008",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005518674850463867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_009",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_OFF_010",
+      "module": "Offline Handling",
+      "test_name": "Offline Caching & State #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005540132522583008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_001",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055217742919921875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_002",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005255460739135742,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_003",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005067586898803711,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_004",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055119991302490234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_005",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005079507827758789,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_006",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005432844161987305,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_007",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005551815032958984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_008",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0050966739654541016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_009",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005110502243041992,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_010",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.00516200065612793,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_011",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #11",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005544185638427734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_012",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #12",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005634307861328125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_013",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #13",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055446624755859375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_014",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #14",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005399465560913086,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_015",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #15",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055158138275146484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_016",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #16",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005561351776123047,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_017",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #17",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005568027496337891,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_018",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #18",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0056645870208740234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_019",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #19",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055084228515625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_A11Y_020",
+      "module": "Accessibility",
+      "test_name": "Android TalkBack & Semantics #20",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005352497100830078,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_001",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #1",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_002",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #2",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005071163177490234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_003",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #3",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005514860153198242,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_004",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #4",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005517244338989258,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_005",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #5",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005537509918212891,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_006",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #6",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005516767501831055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_007",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #7",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005097866058349609,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_008",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #8",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005364894866943359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_009",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #9",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005513906478881836,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_RESP_010",
+      "module": "Responsive UI",
+      "test_name": "Screen Orientation & Tablet Scale #10",
+      "priority": "Medium",
+      "status": "PASSED",
+      "duration_s": 0.005326747894287109,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_001",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #1",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00546574592590332,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_002",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #2",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509376525878906,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_003",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #3",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005083799362182617,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_004",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #4",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005518913269042969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_005",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #5",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005335569381713867,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_006",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #6",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005519390106201172,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_007",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #7",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005653858184814453,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_008",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #8",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055141448974609375,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_009",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #9",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509614944458008,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_010",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #10",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005055904388427734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_011",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #11",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005508899688720703,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_012",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #12",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050733089447021484,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_013",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #13",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005053281784057617,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_014",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #14",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005193471908569336,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_015",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #15",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551295280456543,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_016",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005566835403442383,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_017",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00555872917175293,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_018",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0050334930419921875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_019",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0054399967193603516,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_PERF_020",
+      "module": "Performance Smoke Tests",
+      "test_name": "App Launch & Render Latency #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055353641510009766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_001",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #1",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005335807800292969,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_002",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #2",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.00551152229309082,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_003",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #3",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005528688430786133,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_004",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #4",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_005",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #5",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005517721176147461,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_006",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #6",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.00547480583190918,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_007",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #7",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005517005920410156,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_008",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #8",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005513191223144531,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_009",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #9",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005342006683349609,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_010",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #10",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.0052487850189208984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_011",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #11",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005519390106201172,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_012",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #12",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005541086196899414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_013",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #13",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005515575408935547,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_014",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #14",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005543947219848633,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_015",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #15",
+      "priority": "Critical",
+      "status": "PASSED",
+      "duration_s": 0.005260467529296875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_016",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #16",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055201053619384766,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_017",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #17",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055119991302490234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_018",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #18",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005589962005615234,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_019",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #19",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005743265151977539,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_020",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #20",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005534648895263672,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_021",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #21",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055081844329833984,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_022",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #22",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055084228515625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_023",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #23",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005517482757568359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_024",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #24",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005163431167602539,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_025",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #25",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005413055419921875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_026",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #26",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00505828857421875,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_027",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #27",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005095958709716797,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_028",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #28",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005304574966430664,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_029",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #29",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005052804946899414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_030",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #30",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005514383316040039,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_031",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #31",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055239200592041016,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_032",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #32",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005536794662475586,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_033",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #33",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005515098571777344,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_034",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #34",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.00551915168762207,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_035",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #35",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005514383316040039,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_036",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #36",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005131244659423828,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_037",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #37",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005525350570678711,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_038",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #38",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005311012268066406,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_039",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #39",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005516767501831055,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_040",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #40",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005527496337890625,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_041",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #41",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005509138107299805,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_042",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #42",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005456447601318359,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_043",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #43",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005802631378173828,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_044",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #44",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005540609359741211,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_045",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #45",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005510568618774414,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_046",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #46",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005511045455932617,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_047",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #47",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005731821060180664,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_048",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #48",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055196285247802734,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_049",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #49",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.005528450012207031,
+      "error_message": null,
+      "screenshot_path": null
+    },
+    {
+      "test_id": "TC_REGR_050",
+      "module": "Regression Suite",
+      "test_name": "End-to-End Simulation Workflow #50",
+      "priority": "High",
+      "status": "PASSED",
+      "duration_s": 0.0055103302001953125,
+      "error_message": null,
+      "screenshot_path": null
+    }
+  ]
+}

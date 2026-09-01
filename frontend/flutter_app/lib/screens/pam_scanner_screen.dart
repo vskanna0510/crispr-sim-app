@@ -99,36 +99,7 @@ class _PamScannerScreenState extends State<PamScannerScreen>
           if (rec != null)
             Padding(
               padding: const EdgeInsets.fromLTRB(kPadMd, kPadSm, kPadMd, 0),
-              child: Card(
-                color: Colors.green.shade50,
-                child: Padding(
-                  padding: const EdgeInsets.all(kPadMd),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text('Recommended guide',
-                          style: TextStyle(fontWeight: FontWeight.w800)),
-                      const SizedBox(height: 4),
-                      Text('${rec.guideId}: ${rec.grna}',
-                          style: const TextStyle(
-                              fontFamily: 'monospace', fontSize: 12)),
-                      Text(
-                        'Efficiency ${rec.efficiencyPercent}%  •  '
-                        'Specificity ${rec.specificityPercent}%  •  '
-                        'Safety ${rec.safetyPercent}%',
-                        style: const TextStyle(fontSize: 11),
-                      ),
-                      if (rec.reasons.isNotEmpty) ...[
-                        const SizedBox(height: 6),
-                        ...rec.reasons.map(
-                          (r) => Text('• $r',
-                              style: const TextStyle(fontSize: 11)),
-                        ),
-                      ],
-                    ],
-                  ),
-                ),
-              ),
+              child: _RecommendedGuideCard(rec: rec),
             ),
           if (ranked.isNotEmpty)
             SizedBox(
@@ -431,4 +402,59 @@ class _EmptyState extends StatelessWidget {
           ],
         ),
       );
+}
+
+class _RecommendedGuideCard extends StatelessWidget {
+  const _RecommendedGuideCard({required this.rec});
+
+  final GuideRecommendation rec;
+
+  @override
+  Widget build(BuildContext context) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    final cardColor = dark ? kRecommendBgDark : Colors.green.shade50;
+    final titleColor = dark ? kAccentTeal : Colors.green.shade900;
+    final bodyColor = dark ? Colors.white.withAlpha(235) : Colors.green.shade900;
+    final monoColor = dark ? const Color(0xFFB2DFDB) : Colors.green.shade800;
+
+    return Card(
+      color: cardColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(kRadius),
+        side: BorderSide(
+          color: dark ? kAccentTeal.withAlpha(140) : Colors.green.shade300,
+          width: 1.5,
+        ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(kPadMd),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Recommended guide',
+              style: TextStyle(fontWeight: FontWeight.w800, color: titleColor),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              '${rec.guideId}: ${rec.grna}',
+              style: TextStyle(fontFamily: 'monospace', fontSize: 12, color: monoColor),
+            ),
+            Text(
+              'Efficiency ${rec.efficiencyPercent}%  •  '
+              'Specificity ${rec.specificityPercent}%  •  '
+              'Safety ${rec.safetyPercent}%',
+              style: TextStyle(fontSize: 11, color: bodyColor),
+            ),
+            if (rec.reasons.isNotEmpty) ...[
+              const SizedBox(height: 6),
+              ...rec.reasons.map(
+                (r) => Text('• $r', style: TextStyle(fontSize: 11, color: bodyColor)),
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
 }

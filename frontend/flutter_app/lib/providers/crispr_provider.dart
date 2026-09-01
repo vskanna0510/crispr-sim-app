@@ -5,7 +5,9 @@ import '../models/crispr_models.dart';
 import '../services/api_service.dart';
 
 class CrisprProvider extends ChangeNotifier {
-  final ApiService _api = ApiService();
+  CrisprProvider({required ApiService api}) : _api = api;
+
+  final ApiService _api;
 
   bool isLoading = false;
   String? error;
@@ -136,7 +138,11 @@ class CrisprProvider extends ChangeNotifier {
     if (sequenceResult == null) return false;
     _setLoading(true);
     try {
-      scanResult = await _api.scanPam(sequenceResult!.sequence, casType: casType);
+      scanResult = await _api.scanPam(
+        sequenceResult!.sequence,
+        casType: casType,
+        sessionId: sequenceResult!.sessionId,
+      );
       selectedPamSite = null;
       offTargetResult = null;
       safetyScoreResult = null;
@@ -216,6 +222,8 @@ class CrisprProvider extends ChangeNotifier {
         sequenceResult!.sequence,
         cutResult!.cutPosition,
         deletionSize: deletionSize,
+        sessionId: sequenceResult!.sessionId,
+        casType: casType,
       );
       compareResult = null;
       isLoading = false;
@@ -257,6 +265,10 @@ class CrisprProvider extends ChangeNotifier {
       compareResult = await _api.compare(
         sequenceResult!.sequence,
         repairResult!.repairedSequence,
+        sessionId: sequenceResult!.sessionId,
+        repairType: repairResult!.repairType,
+        cutPosition: cutResult?.cutPosition,
+        casType: casType,
       );
       isLoading = false;
       notifyListeners();

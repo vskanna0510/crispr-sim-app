@@ -4,8 +4,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../utils/constants.dart';
+import 'settings_screen.dart';
 import '../widgets/dna_sequencing_helix.dart';
 import '../widgets/glass_panel.dart';
 import '../widgets/interactive_surface.dart';
@@ -41,6 +41,16 @@ class HomeScreen extends StatelessWidget {
               pinned: true,
               stretch: true,
               backgroundColor: cs.primary,
+              actions: [
+                IconButton(
+                  tooltip: 'Settings',
+                  icon: const Icon(Icons.settings_rounded),
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const SettingsScreen()),
+                  ),
+                ),
+              ],
               flexibleSpace: const FlexibleSpaceBar(
                 stretchModes: [
                   StretchMode.zoomBackground,

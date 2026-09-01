@@ -8,6 +8,7 @@ plugins {
 android {
     namespace = "com.crisprsim.crispr_sim"
     compileSdk = flutter.compileSdkVersion
+    ndkVersion = "28.2.13676358"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

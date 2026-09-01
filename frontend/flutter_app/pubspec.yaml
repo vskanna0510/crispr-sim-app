@@ -16,6 +16,12 @@ dependencies:
   # State management
   provider: ^6.1.2
 
+  # Secure token storage
+  flutter_secure_storage: ^9.2.4
+
+  # Local preferences (theme, etc.)
+  shared_preferences: ^2.3.3
+
   # Icons
   cupertino_icons: ^1.0.8
 

@@ -1,0 +1,22 @@
+"""Android Mobile Test Data Sets."""
+
+MOBILE_USERS = [
+    {"email": f"mobile_user_{i}@example.com", "password": f"PassMobile!{i}", "name": f"Mobile User {i}"}
+    for i in range(1, 51)
+]
+
+VALID_DNA_STRINGS = [
+    "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAAC",
+    "ATGCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCAGG",
+    "ATGAAACCCGGGTTTAAACCCGGGAGG",
+]
+
+INVALID_DNA_STRINGS = [
+    "ATG12345INVALID",
+    "ATGC-NHEJ-ERROR",
+    "   ",
+]
+
+FASTA_MOBILE_DATA = """>mobile_seq_01
+ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAAC
+"""

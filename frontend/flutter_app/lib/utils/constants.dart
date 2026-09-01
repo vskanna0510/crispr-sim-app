@@ -36,8 +36,11 @@ Color dnaBaseColour(String base) {
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
 
-const Color kPrimary   = Color(0xFF006B76);
-const Color kSecondary = Color(0xFF7B1FA2);
+const Color kPrimary    = Color(0xFF006B76);
+const Color kSecondary  = Color(0xFF7B1FA2);
+const Color kAccentTeal = Color(0xFF78D1D2);
+const Color kDarkTeal   = Color(0xFF004D4D);
+const Color kRecommendBgDark = Color(0xFF1B3D3D);
 
 // ─── Sizes / paddings ─────────────────────────────────────────────────────────
 

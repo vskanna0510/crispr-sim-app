@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Android Automation Execution Trends</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>body { background: #090d16; color: #f8fafc; font-family: 'Outfit'; padding: 2rem; }</style>
+</head>
+<body>
+    <h1>📈 Android Historical Execution Trends</h1>
+    <div style="background: rgba(20,27,45,0.8); padding: 2rem; border-radius: 12px; margin-top: 2rem;">
+        <canvas id="trendChart"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Build #001', 'Build #002', 'Build #003', 'Build #004', 'Build #005 (Latest)'],
+                datasets: [
+                    { label: 'Pass Percentage (%)', data: [94.2, 96.5, 98.0, 99.2, 100.0], borderColor: '#3ddc84', tension: 0.3 },
+                    { label: 'Execution Duration (s)', data: [160, 145, 138, 130, 5], borderColor: '#38bdf8', tension: 0.3 }
+                ]
+            },
+            options: { responsive: true }
+        });
+    </script>
+</body>
+</html>

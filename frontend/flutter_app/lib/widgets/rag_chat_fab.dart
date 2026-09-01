@@ -29,13 +29,38 @@ class GlobalRagChatLayer extends StatelessWidget {
   }
 }
 
-class _ChatFab extends StatelessWidget {
+class _ChatFab extends StatefulWidget {
   final GlobalKey<NavigatorState> navigatorKey;
 
   const _ChatFab({required this.navigatorKey});
 
   @override
+  State<_ChatFab> createState() => _ChatFabState();
+}
+
+class _ChatFabState extends State<_ChatFab> {
+  bool _sheetOpen = false;
+
+  Future<void> _openSheet() async {
+    final navContext = widget.navigatorKey.currentContext;
+    if (navContext == null || _sheetOpen) return;
+    setState(() => _sheetOpen = true);
+    await showModalBottomSheet<void>(
+      context: navContext,
+      isScrollControlled: true,
+      showDragHandle: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(kRadius)),
+      ),
+      builder: (ctx) => const _RagChatSheet(),
+    );
+    if (mounted) setState(() => _sheetOpen = false);
+  }
+
+  @override
   Widget build(BuildContext context) {
+    if (_sheetOpen) return const SizedBox.shrink();
+
     return SafeArea(
       child: Align(
         alignment: Alignment.bottomRight,
@@ -49,20 +74,6 @@ class _ChatFab extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-
-  void _openSheet() {
-    final navContext = navigatorKey.currentContext;
-    if (navContext == null) return;
-    showModalBottomSheet<void>(
-      context: navContext,
-      isScrollControlled: true,
-      showDragHandle: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(kRadius)),
-      ),
-      builder: (ctx) => const _RagChatSheet(),
     );
   }
 }
@@ -243,36 +254,33 @@ class _RagChatSheetState extends State<_RagChatSheet> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(kPadMd, 0, kPadMd, kPadMd),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: TextField(
-                      controller: _ctrl,
-                      minLines: 1,
-                      maxLines: 4,
-                      textInputAction: TextInputAction.send,
-                      onSubmitted: (_) => _send(),
-                      decoration: InputDecoration(
-                        hintText: 'Ask about the app, DNA/RNA/protein…',
-                        filled: true,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(kRadius),
-                        ),
-                      ),
-                    ),
+              child: TextField(
+                controller: _ctrl,
+                minLines: 1,
+                maxLines: 4,
+                textInputAction: TextInputAction.send,
+                onSubmitted: (_) => _send(),
+                decoration: InputDecoration(
+                  hintText: 'Ask about the app, DNA/RNA/protein…',
+                  filled: true,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(kRadius),
                   ),
-                  const SizedBox(width: kPadSm),
-                  FilledButton(
+                  suffixIcon: IconButton(
                     onPressed: _busy ? null : _send,
-                    style: FilledButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 18,
-                        vertical: 14,
-                      ),
-                    ),
-                    child: const Icon(Icons.send_rounded, size: 22),
+                    icon: _busy
+                        ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          )
+                        : Icon(
+                            Icons.send_rounded,
+                            color: Theme.of(context).colorScheme.primary,
+                          ),
+                    tooltip: 'Send',
                   ),
-                ],
+                ),
               ),
             ),
           ],

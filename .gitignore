@@ -12,6 +12,8 @@ frontend/flutter_app/.dart_tool/
 frontend/flutter_app/build/
 frontend/flutter_app/.flutter-plugins
 frontend/flutter_app/.flutter-plugins-dependencies
+frontend/flutter_app/android/.kotlin/
+
 
 # IDE / OS
 .idea/
