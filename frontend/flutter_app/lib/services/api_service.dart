@@ -215,6 +215,29 @@ class ApiService {
     return AppRating.fromJson(json);
   }
 
+  Future<Map<String, dynamic>> reportIssue({
+    required String category,
+    required String severity,
+    required String title,
+    required String description,
+    String? stepsToReproduce,
+    Map<String, dynamic>? systemInfo,
+  }) async {
+    return await _post('/settings/report-issue', {
+      'category': category,
+      'severity': severity,
+      'title': title,
+      'description': description,
+      if (stepsToReproduce != null && stepsToReproduce.isNotEmpty)
+        'steps_to_reproduce': stepsToReproduce,
+      if (systemInfo != null) 'system_info': systemInfo,
+    });
+  }
+
+  Future<List<Map<String, dynamic>>> fetchUserIssues() async {
+    return await _getList('/settings/issues');
+  }
+
   Future<List<HistorySession>> fetchHistorySessions() async {
     final list = await _getList('/history/sessions');
     return list.map(HistorySession.fromJson).toList();

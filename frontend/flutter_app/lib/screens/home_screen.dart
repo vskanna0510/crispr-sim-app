@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../utils/constants.dart';
 import 'settings_screen.dart';
+import 'help_center_screen.dart';
+import 'user_guide_screen.dart';
 import '../widgets/dna_sequencing_helix.dart';
 import '../widgets/glass_panel.dart';
 import '../widgets/interactive_surface.dart';
@@ -42,6 +44,22 @@ class HomeScreen extends StatelessWidget {
               stretch: true,
               backgroundColor: cs.primary,
               actions: [
+                IconButton(
+                  tooltip: 'User Guide',
+                  icon: const Icon(Icons.auto_stories_rounded),
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const UserGuideScreen()),
+                  ),
+                ),
+                IconButton(
+                  tooltip: 'Help Center',
+                  icon: const Icon(Icons.help_outline_rounded),
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const HelpCenterScreen()),
+                  ),
+                ),
                 IconButton(
                   tooltip: 'Settings',
                   icon: const Icon(Icons.settings_rounded),

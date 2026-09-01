@@ -142,3 +142,89 @@ def submit_rating(
         comment=row.comment,
         updated_at=row.updated_at.isoformat() if row.updated_at else None,
     )
+
+
+class IssueReportRequest(BaseModel):
+    category: str = Field(..., description="bug, simulation_error, ui_glitch, export_issue, feature_request, other")
+    severity: str = Field(default="medium", description="low, medium, high, critical")
+    title: str = Field(..., min_length=3, max_length=255)
+    description: str = Field(..., min_length=5)
+    steps_to_reproduce: Optional[str] = None
+    system_info: Optional[dict[str, Any]] = None
+
+
+class IssueReportResponse(BaseModel):
+    ticket_id: str
+    category: str
+    severity: str
+    title: str
+    status: str
+    created_at: str
+    message: str
+
+
+@router.post("/report-issue", response_model=IssueReportResponse, summary="Submit a bug report or issue ticket")
+def report_issue(
+    body: IssueReportRequest,
+    db: Session = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    import secrets
+    from db.models import IssueReport
+
+    now = datetime.now(timezone.utc)
+    ticket_id = f"CRISPR-TKT-{secrets.randbelow(90000) + 10000}"
+
+    issue = IssueReport(
+        ticket_id=ticket_id,
+        user_id=user.id,
+        user_email=user.email,
+        category=body.category,
+        severity=body.severity,
+        title=body.title,
+        description=body.description,
+        steps_to_reproduce=body.steps_to_reproduce,
+        system_info=body.system_info or {},
+        status="open",
+        created_at=now,
+    )
+    db.add(issue)
+    db.commit()
+    db.refresh(issue)
+
+    return IssueReportResponse(
+        ticket_id=issue.ticket_id,
+        category=issue.category,
+        severity=issue.severity,
+        title=issue.title,
+        status=issue.status,
+        created_at=issue.created_at.isoformat(),
+        message="Thank you! Your issue report has been submitted to the engineering team.",
+    )
+
+
+@router.get("/issues", response_model=list[IssueReportResponse], summary="List issues reported by user")
+def list_user_issues(
+    db: Session = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    from db.models import IssueReport
+
+    rows = (
+        db.query(IssueReport)
+        .filter(IssueReport.user_id == user.id)
+        .order_by(IssueReport.created_at.desc())
+        .all()
+    )
+    return [
+        IssueReportResponse(
+            ticket_id=r.ticket_id,
+            category=r.category,
+            severity=r.severity,
+            title=r.title,
+            status=r.status,
+            created_at=r.created_at.isoformat(),
+            message="Report received",
+        )
+        for r in rows
+    ]

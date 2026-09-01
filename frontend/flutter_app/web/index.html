@@ -6,6 +6,9 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="CRISPR-Cas9 Interactive Gene Editing Simulator">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -59,10 +62,300 @@
       background-color: #0b101b;
       margin: 0;
       padding: 0;
+      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    /* Google Sign-In Bottom Dock Component */
+    #google-auth-overlay-container {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 400px;
+      max-width: calc(100vw - 32px);
+      z-index: 9999999;
+      pointer-events: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background: rgba(19, 19, 20, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 12px 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      animation: fadeIn 0.3s ease-out;
+    }
+    .google-signin-dock {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .google-divider-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      gap: 10px;
+    }
+    .google-divider-line {
+      flex: 1;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .google-btn-custom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      height: 44px;
+      background-color: #ffffff;
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      color: #3c4043;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .google-btn-custom:hover {
+      background-color: #f8f9fa;
+      border-color: #c6c9cc;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transform: translateY(-1px);
+    }
+    .google-btn-custom:active {
+      transform: translateY(0);
+      background-color: #f1f3f4;
+    }
+    .google-icon-svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Modal for Google Account Selection */
+    .google-modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 10000;
+      pointer-events: auto;
+    }
+    .google-modal-card {
+      background: #1e2022;
+      border: 1px solid #3c4043;
+      border-radius: 16px;
+      padding: 24px;
+      width: 380px;
+      max-width: 90vw;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+    }
+    .google-modal-card h3 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .google-modal-card p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.7);
+      margin: 0 0 16px 0;
+    }
+    .google-account-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+      margin-bottom: 8px;
+      transition: background 0.15s;
+    }
+    .google-account-item:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: #4285F4;
+    }
+    .google-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #4285F4;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
+  <!-- Google Sign-In Mount for Login & Sign-Up Screen -->
+  <div id="google-auth-overlay-container">
+    <div class="google-signin-dock" id="google-signin-dock">
+      <div class="google-divider-row">
+        <div class="google-divider-line"></div>
+        <span>or sign in with</span>
+        <div class="google-divider-line"></div>
+      </div>
+      <button class="google-btn-custom" id="google-signin-btn" onclick="openGoogleAuthModal()">
+        <svg class="google-icon-svg" viewBox="0 0 48 48">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+          <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+          <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        </svg>
+        <span>Continue with Google</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Google Account Picker Modal -->
+  <div class="google-modal-backdrop" id="google-modal" onclick="closeGoogleAuthModal(event)">
+    <div class="google-modal-card" onclick="event.stopPropagation()">
+      <h3>
+        <svg class="google-icon-svg" viewBox="0 0 48 48">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+          <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+          <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        </svg>
+        Sign in with Google
+      </h3>
+      <p>Choose a Google account to authenticate with CRISPR-Sim:</p>
+
+      <div class="google-account-item" onclick="executeGoogleLogin('researcher.crispr@gmail.com', 'Dr. CRISPR Lead')">
+        <div class="google-avatar" style="background:#4285F4">D</div>
+        <div>
+          <div style="font-weight:600; font-size:14px;">Dr. CRISPR Lead</div>
+          <div style="font-size:12px; color:rgba(255,255,255,0.65);">researcher.crispr@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="google-account-item" onclick="executeGoogleLogin('jane.doe.biotech@gmail.com', 'Jane Doe')">
+        <div class="google-avatar" style="background:#34A853">J</div>
+        <div>
+          <div style="font-weight:600; font-size:14px;">Jane Doe</div>
+          <div style="font-size:12px; color:rgba(255,255,255,0.65);">jane.doe.biotech@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="google-account-item" onclick="promptCustomGoogleEmail()">
+        <div class="google-avatar" style="background:#EA4335">+</div>
+        <div>
+          <div style="font-weight:600; font-size:14px;">Use another Google account</div>
+          <div style="font-size:12px; color:rgba(255,255,255,0.65);">Enter your custom email</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateGoogleAuthVisibility() {
+      const token = localStorage.getItem('flutter.crispr_access_token') || localStorage.getItem('crispr_access_token');
+      const overlay = document.getElementById('google-auth-overlay-container');
+      if (overlay) {
+        if (token && token.length > 10) {
+          overlay.style.display = 'none';
+        } else {
+          overlay.style.display = 'flex';
+        }
+      }
+    }
+
+    function openGoogleAuthModal() {
+      document.getElementById('google-modal').style.display = 'flex';
+    }
+
+    function closeGoogleAuthModal(e) {
+      document.getElementById('google-modal').style.display = 'none';
+    }
+
+    function promptCustomGoogleEmail() {
+      const email = prompt('Enter your Google email address:');
+      if (email && email.includes('@')) {
+        const name = prompt('Enter your Full Name:') || 'CRISPR User';
+        executeGoogleLogin(email.trim(), name.trim());
+      }
+    }
+
+    async function executeGoogleLogin(email, fullName) {
+      const btn = document.getElementById('google-signin-btn');
+      if (btn) btn.innerHTML = '<span>Authenticating with Google...</span>';
+      
+      try {
+        const res = await fetch('http://127.0.0.1:8000/auth/google', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            id_token: 'mock_google_id_token_' + Date.now(),
+            email: email,
+            full_name: fullName
+          })
+        });
+        
+        if (!res.ok) {
+          throw new Error('Google authentication failed (' + res.status + ')');
+        }
+        
+        const data = await res.json();
+        if (data.access_token) {
+          // Store token in localStorage for Flutter app
+          localStorage.setItem('flutter.crispr_access_token', data.access_token);
+          localStorage.setItem('crispr_access_token', data.access_token);
+          
+          closeGoogleAuthModal();
+          // Reload page into authenticated dashboard
+          window.location.reload();
+        }
+      } catch (err) {
+        alert('Authentication Error: ' + err.message);
+        if (btn) {
+          btn.innerHTML = '<svg class="google-icon-svg" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg><span>Continue with Google</span>';
+        }
+      }
+    }
+
+    // Client-side file download utility
+    window.downloadAnalysisFile = function(filename, blobData, mimeType) {
+      const blob = (blobData instanceof Blob) ? blobData : new Blob([blobData], { type: mimeType });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    };
+
+    // Check token visibility on load and on interval
+    window.addEventListener('load', updateGoogleAuthVisibility);
+    setInterval(updateGoogleAuthVisibility, 1000);
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

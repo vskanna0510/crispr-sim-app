@@ -11,6 +11,7 @@ import '../models/crispr_models.dart';
 import '../providers/crispr_provider.dart';
 import '../providers/auth_provider.dart';
 import '../utils/constants.dart';
+import '../utils/file_saver.dart';
 import '../widgets/stagger_column.dart';
 import 'literature_validation_screen.dart';
 
@@ -154,6 +155,8 @@ class AnalysisScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: kPadMd),
+            _ExportAndDownloadCard(result: result, repair: repair, safety: safety),
+            const SizedBox(height: kPadMd),
             _ProteinCompareCard(result: result),
             const SizedBox(height: kPadMd),
             _SequenceCompareCard(
@@ -178,8 +181,6 @@ class AnalysisScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: kPadMd),
-            _ExportAndDownloadCard(result: result, repair: repair, safety: safety),
             const SizedBox(height: kPadMd),
             _DeleteDataCard(),
             if (geneInfo != null && geneInfo.supportingStudies.isNotEmpty) ...[
@@ -391,12 +392,12 @@ class _ProteinCompareCard extends StatelessWidget {
               children: [
                 Container(width: 8, height: 8, decoration: const BoxDecoration(color: Color(0xFF10B981), shape: BoxShape.circle)),
                 const SizedBox(width: 6),
-                Text(
+                const Text(
                   'Original Protein:',
                   style: TextStyle(
                     fontSize: 13,
                     fontWeight: FontWeight.bold,
-                    color: isDark ? const Color(0xFF6EE7B7) : const Color(0xFF047857),
+                    color: Color(0xFF34D399),
                   ),
                 ),
               ],
@@ -404,21 +405,21 @@ class _ProteinCompareCard extends StatelessWidget {
             const SizedBox(height: 6),
             _SeqBox(
               result.originalProtein,
-              isDark ? const Color(0xFF064E3B).withAlpha(140) : const Color(0xFFECFDF5),
-              isDark ? const Color(0xFF059669) : const Color(0xFFA7F3D0),
-              isDark ? const Color(0xFFA7F3D0) : const Color(0xFF064E3B),
+              const Color(0xFF022C22),
+              const Color(0xFF10B981),
+              const Color(0xFF6EE7B7),
             ),
             const SizedBox(height: kPadSm),
             Row(
               children: [
                 Container(width: 8, height: 8, decoration: const BoxDecoration(color: Color(0xFFEF4444), shape: BoxShape.circle)),
                 const SizedBox(width: 6),
-                Text(
+                const Text(
                   'Edited Protein:',
                   style: TextStyle(
                     fontSize: 13,
                     fontWeight: FontWeight.bold,
-                    color: isDark ? const Color(0xFFFDA4AF) : const Color(0xFFDC2626),
+                    color: Color(0xFFFB7185),
                   ),
                 ),
               ],
@@ -426,9 +427,9 @@ class _ProteinCompareCard extends StatelessWidget {
             const SizedBox(height: 6),
             _SeqBox(
               result.editedProtein,
-              isDark ? const Color(0xFF881337).withAlpha(140) : const Color(0xFFFFF1F2),
-              isDark ? const Color(0xFFE11D48) : const Color(0xFFFECDD3),
-              isDark ? const Color(0xFFFECDD3) : const Color(0xFF881337),
+              const Color(0xFF4C0519),
+              const Color(0xFFF43F5E),
+              const Color(0xFFFDA4AF),
             ),
           ],
         ),
@@ -606,13 +607,42 @@ class _ExportAndDownloadCard extends StatelessWidget {
       );
 
       if (response.statusCode == 200) {
-        // Trigger download or clipboard save
-        final fasta = '>CRISPR_Sim_Export_${format.toUpperCase()}\n${repair.repairedSequence}';
-        Clipboard.setData(ClipboardData(text: fasta));
+        final bytes = response.bodyBytes;
+        String filename;
+        String mimeType;
+
+        switch (format.toLowerCase()) {
+          case 'pdf':
+            filename = 'CRISPR_Sim_Analysis_Report.pdf';
+            mimeType = 'application/pdf';
+            break;
+          case 'excel':
+            filename = 'CRISPR_Sim_Analysis_Data.xlsx';
+            mimeType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+            break;
+          case 'csv':
+            filename = 'CRISPR_Sim_Summary.csv';
+            mimeType = 'text/csv';
+            break;
+          case 'fasta':
+          default:
+            filename = 'CRISPR_Sim_Sequences.fasta';
+            mimeType = 'text/plain';
+            break;
+        }
+
+        saveFileBytes(bytes, filename, mimeType);
+
         scaffold.showSnackBar(
           SnackBar(
-            backgroundColor: Colors.teal,
-            content: Text('$format.toUpperCase() report generated & ready for download!'),
+            backgroundColor: const Color(0xFF047857),
+            content: Row(
+              children: [
+                const Icon(Icons.check_circle_rounded, color: Colors.white, size: 20),
+                const SizedBox(width: 8),
+                Text('$filename downloaded!'),
+              ],
+            ),
           ),
         );
       } else {
@@ -620,7 +650,10 @@ class _ExportAndDownloadCard extends StatelessWidget {
       }
     } catch (e) {
       scaffold.showSnackBar(
-        SnackBar(content: Text('Export error: $e')),
+        SnackBar(
+          backgroundColor: Colors.red.shade800,
+          content: Text('Export error: $e'),
+        ),
       );
     }
   }
@@ -795,28 +828,31 @@ class _StatRow extends StatelessWidget {
   const _StatRow(this.label, this.value, this.onPanel);
 
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.symmetric(vertical: 4),
-        child: Row(
-          children: [
-            Text(
-              label,
-              style: TextStyle(
-                fontSize: 13,
-                fontWeight: FontWeight.w500,
-                color: onPanel.withAlpha(200),
-              ),
+  Widget build(BuildContext context) {
+    final isDark = Theme.of(context).colorScheme.brightness == Brightness.dark;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 5),
+      child: Row(
+        children: [
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 13,
+              fontWeight: FontWeight.w600,
+              color: isDark ? const Color(0xFFCBD5E1) : const Color(0xFF334155),
             ),
-            const Spacer(),
-            Text(
-              value,
-              style: TextStyle(
-                fontSize: 13,
-                fontWeight: FontWeight.bold,
-                color: onPanel,
-              ),
+          ),
+          const Spacer(),
+          Text(
+            value,
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w800,
+              color: isDark ? Colors.white : Colors.black87,
             ),
-          ],
-        ),
-      );
+          ),
+        ],
+      ),
+    );
+  }
 }

@@ -8,6 +8,11 @@ import '../utils/constants.dart';
 import '../widgets/app_background.dart';
 import 'analytics_screen.dart';
 import 'history_screen.dart';
+import 'help_center_screen.dart';
+import 'user_guide_screen.dart';
+import 'literature_validation_screen.dart';
+import 'about_screen.dart';
+import 'report_problem_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -229,6 +234,85 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (_) => const HistoryScreen()),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: kPadLg),
+            _sectionTitle(context, 'Help & Resources', Icons.help_outline_rounded),
+            const SizedBox(height: kPadSm),
+            AppPanel(
+              padding: EdgeInsets.zero,
+              child: Column(
+                children: [
+                  ListTile(
+                    leading: const Icon(Icons.help_center_rounded, color: kAccentTeal),
+                    title: Text('Help Center & FAQs', style: TextStyle(color: onPanel, fontWeight: FontWeight.w600)),
+                    subtitle: Text(
+                      'Common questions, CRISPR glossary, and troubleshooting',
+                      style: TextStyle(color: onPanel.withAlpha(170), fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right_rounded, color: kAccentTeal),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const HelpCenterScreen()),
+                    ),
+                  ),
+                  Divider(height: 1, color: onPanel.withAlpha(40)),
+                  ListTile(
+                    leading: const Icon(Icons.auto_stories_rounded, color: kAccentTeal),
+                    title: Text('User Guide & Tutorial', style: TextStyle(color: onPanel, fontWeight: FontWeight.w600)),
+                    subtitle: Text(
+                      'Interactive 6-step simulator walkthrough & Cas matrix',
+                      style: TextStyle(color: onPanel.withAlpha(170), fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right_rounded, color: kAccentTeal),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const UserGuideScreen()),
+                    ),
+                  ),
+                  Divider(height: 1, color: onPanel.withAlpha(40)),
+                  ListTile(
+                    leading: const Icon(Icons.menu_book_rounded, color: kAccentTeal),
+                    title: Text('Published Studies Validation', style: TextStyle(color: onPanel, fontWeight: FontWeight.w600)),
+                    subtitle: Text(
+                      'PubMed clinical trials, DOIs, and benchmark citations',
+                      style: TextStyle(color: onPanel.withAlpha(170), fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right_rounded, color: kAccentTeal),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const LiteratureValidationScreen()),
+                    ),
+                  ),
+                  Divider(height: 1, color: onPanel.withAlpha(40)),
+                  ListTile(
+                    leading: const Icon(Icons.info_outline_rounded, color: kAccentTeal),
+                    title: Text('About CRISPR-Sim', style: TextStyle(color: onPanel, fontWeight: FontWeight.w600)),
+                    subtitle: Text(
+                      'App version v2.4.0, mission, tech stack, and developer credits',
+                      style: TextStyle(color: onPanel.withAlpha(170), fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right_rounded, color: kAccentTeal),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const AboutScreen()),
+                    ),
+                  ),
+                  Divider(height: 1, color: onPanel.withAlpha(40)),
+                  ListTile(
+                    leading: const Icon(Icons.report_problem_outlined, color: kAccentTeal),
+                    title: Text('Report a Problem', style: TextStyle(color: onPanel, fontWeight: FontWeight.w600)),
+                    subtitle: Text(
+                      'Submit bug reports, simulation glitches, or feature requests',
+                      style: TextStyle(color: onPanel.withAlpha(170), fontSize: 12),
+                    ),
+                    trailing: const Icon(Icons.chevron_right_rounded, color: kAccentTeal),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const ReportProblemScreen()),
                     ),
                   ),
                 ],
